@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Extra_Long_Factorials.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Extra_Long_Factorials.dir/objects.a @CMakeFiles\Extra_Long_Factorials.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\Extra_Long_Factorials.dir/objects.a -Wl,--no-whole-archive  -o Extra_Long_Factorials.exe -Wl,--out-implib,libExtra_Long_Factorials.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Extra_Long_Factorials.dir\linklibs.rsp

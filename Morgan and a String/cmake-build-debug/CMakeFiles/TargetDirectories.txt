@@ -1,0 +1,3 @@
+E:/CODE/Morgan and a String/cmake-build-debug/CMakeFiles/Morgan_and_a_String.dir
+E:/CODE/Morgan and a String/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/CODE/Morgan and a String/cmake-build-debug/CMakeFiles/rebuild_cache.dir

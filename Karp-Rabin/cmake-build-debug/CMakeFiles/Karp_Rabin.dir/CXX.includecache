@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CODE/C++/Karp-Rabin/main.cpp
+iostream
+-
+rolling_hash.h
+E:/CODE/C++/Karp-Rabin/rolling_hash.h
+
+E:/CODE/C++/Karp-Rabin/rolling_hash.cpp
+rolling_hash.h
+E:/CODE/C++/Karp-Rabin/rolling_hash.h
+
+E:/CODE/C++/Karp-Rabin/rolling_hash.h
+

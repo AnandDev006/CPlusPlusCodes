@@ -1,0 +1,3 @@
+E:/CODE/C++/Angry Children 2/cmake-build-debug/CMakeFiles/Angry_Children_2.dir
+E:/CODE/C++/Angry Children 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/CODE/C++/Angry Children 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CODE/C++/rolling hash/main.cpp
+iostream
+-
+rolling_hash.h
+E:/CODE/C++/rolling hash/rolling_hash.h
+
+E:/CODE/C++/rolling hash/rolling_hash.cpp
+rolling_hash.h
+E:/CODE/C++/rolling hash/rolling_hash.h
+
+E:/CODE/C++/rolling hash/rolling_hash.h
+

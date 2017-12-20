@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CODE/C++/Arithmetic Expressions/main.cpp
+vector
+-
+cmath
+-
+cstdio
+-
+vector
+-
+iostream
+-
+algorithm
+-
+
