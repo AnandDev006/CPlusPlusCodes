@@ -9,10 +9,15 @@ I was a mechanical engineering student ( not by choice ) who found his true pass
 Decided to swap to CSE by mid of 3rd year 2nd sem and started preparation work during my 4th year semester 1
 
 Useful links : 
+
   https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/
+  
   http://bigocheatsheet.com/
+  
   http://www.asciitable.com/
+  
   http://www.satya-weblog.com/tools/find-alphabets.php?q=z
+  
   https://tfetimes.com/c-puzzlesgames/
   
   Tutorial : https://www.youtube.com/user/tusharroy2525
