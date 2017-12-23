@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/Couting Sort/main.cpp" "E:/CODE/C++/Couting Sort/cmake-build-debug/CMakeFiles/Couting_Sort.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/Couting Sort/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/Couting Sort/cmake-build-debug/CMakeFiles/Couting_Sort.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

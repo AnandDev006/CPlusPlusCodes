@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/Karp-Rabin/main.cpp" "E:/CODE/C++/Karp-Rabin/cmake-build-debug/CMakeFiles/Karp_Rabin.dir/main.cpp.obj"
-  "E:/CODE/C++/Karp-Rabin/rolling_hash.cpp" "E:/CODE/C++/Karp-Rabin/cmake-build-debug/CMakeFiles/Karp_Rabin.dir/rolling_hash.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/cmake-build-debug/CMakeFiles/Karp_Rabin.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/rolling_hash.cpp" "E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/cmake-build-debug/CMakeFiles/Karp_Rabin.dir/rolling_hash.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

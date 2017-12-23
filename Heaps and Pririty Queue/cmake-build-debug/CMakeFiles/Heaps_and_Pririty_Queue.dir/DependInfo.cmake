@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/Heaps and Pririty Queue/main.cpp" "E:/CODE/C++/Heaps and Pririty Queue/cmake-build-debug/CMakeFiles/Heaps_and_Pririty_Queue.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue/cmake-build-debug/CMakeFiles/Heaps_and_Pririty_Queue.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

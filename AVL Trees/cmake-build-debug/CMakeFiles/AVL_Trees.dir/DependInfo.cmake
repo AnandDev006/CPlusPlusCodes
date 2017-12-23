@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/AVL Trees/AVL.cpp" "E:/CODE/C++/AVL Trees/cmake-build-debug/CMakeFiles/AVL_Trees.dir/AVL.cpp.obj"
-  "E:/CODE/C++/AVL Trees/main.cpp" "E:/CODE/C++/AVL Trees/cmake-build-debug/CMakeFiles/AVL_Trees.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/AVL Trees/AVL.cpp" "E:/CODE/GIT/CPlusPlusCodes/AVL Trees/cmake-build-debug/CMakeFiles/AVL_Trees.dir/AVL.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/AVL Trees/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/AVL Trees/cmake-build-debug/CMakeFiles/AVL_Trees.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

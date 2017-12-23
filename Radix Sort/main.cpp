@@ -23,9 +23,9 @@ bool countingSort( vector<int> &A , int p ) {
 }
 
 void radixSort( vector<int> &A ){
-    int p = 10 ;
+    int p = 1 ;
     while( countingSort( A , p ) )
-        p *= p ;
+        p *= 10 ;
 }
 
 int main() {

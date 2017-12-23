@@ -47,10 +47,10 @@ RM = C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\CODE\0\1 Knapsack"
+CMAKE_SOURCE_DIR = "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\CODE\0\1 Knapsack\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\0\1 Knapsack\cmake-build-debug\CMakeFiles" "E:\CODE\0\1 Knapsack\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug\CMakeFiles" "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\0\1 Knapsack\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

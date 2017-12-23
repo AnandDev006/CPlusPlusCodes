@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\OptimalBST.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\OptimalBST.dir/objects.a @CMakeFiles\OptimalBST.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\OptimalBST.dir/objects.a -Wl,--no-whole-archive  -o OptimalBST.exe -Wl,--out-implib,libOptimalBST.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OptimalBST.dir\linklibs.rsp

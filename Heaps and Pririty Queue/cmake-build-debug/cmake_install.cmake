@@ -1,4 +1,4 @@
-# Install script for directory: E:/CODE/C++/Heaps and Pririty Queue
+# Install script for directory: E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CODE/C++/Heaps and Pririty Queue/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

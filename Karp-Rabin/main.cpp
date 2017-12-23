@@ -1,7 +1,7 @@
 #include <iostream>
 #include "rolling_hash.h"
 
-const int base = 100 ;
+const int base = 10 ;
 const int prime = 23 ;
 
 using namespace std ;

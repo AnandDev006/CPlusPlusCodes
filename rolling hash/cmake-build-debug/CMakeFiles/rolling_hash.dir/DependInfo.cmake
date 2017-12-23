@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/rolling hash/main.cpp" "E:/CODE/C++/rolling hash/cmake-build-debug/CMakeFiles/rolling_hash.dir/main.cpp.obj"
-  "E:/CODE/C++/rolling hash/rolling_hash.cpp" "E:/CODE/C++/rolling hash/cmake-build-debug/CMakeFiles/rolling_hash.dir/rolling_hash.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/rolling hash/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/rolling hash/cmake-build-debug/CMakeFiles/rolling_hash.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/rolling hash/rolling_hash.cpp" "E:/CODE/GIT/CPlusPlusCodes/rolling hash/cmake-build-debug/CMakeFiles/rolling_hash.dir/rolling_hash.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

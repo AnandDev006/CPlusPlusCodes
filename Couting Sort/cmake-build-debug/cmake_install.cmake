@@ -1,4 +1,4 @@
-# Install script for directory: E:/CODE/C++/Couting Sort
+# Install script for directory: E:/CODE/GIT/CPlusPlusCodes/Couting Sort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CODE/C++/Couting Sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/CODE/GIT/CPlusPlusCodes/Couting Sort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

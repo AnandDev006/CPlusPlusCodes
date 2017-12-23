@@ -1,4 +1,4 @@
-# Install script for directory: E:/CODE/0/1 Knapsack
+# Install script for directory: E:/CODE/GIT/CPlusPlusCodes/1 Knapsack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CODE/0/1 Knapsack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/CODE/GIT/CPlusPlusCodes/1 Knapsack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\CODE\0\1 Knapsack"
+CMAKE_SOURCE_DIR = "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\CODE\0\1 Knapsack\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/1_Knapsack.dir
@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "E:\CODE\0\1 Knapsack\cmake-build-debug"
 CMakeFiles/1_Knapsack.dir/all:
 	$(MAKE) -f CMakeFiles\1_Knapsack.dir\build.make CMakeFiles/1_Knapsack.dir/depend
 	$(MAKE) -f CMakeFiles\1_Knapsack.dir\build.make CMakeFiles/1_Knapsack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\CODE\0\1 Knapsack\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 1_Knapsack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 1_Knapsack"
 .PHONY : CMakeFiles/1_Knapsack.dir/all
 
 # Include target in all.
@@ -75,9 +75,9 @@ all: CMakeFiles/1_Knapsack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1_Knapsack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\0\1 Knapsack\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1_Knapsack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\0\1 Knapsack\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\GIT\CPlusPlusCodes\1 Knapsack\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/1_Knapsack.dir/rule
 
 # Convenience name for target.

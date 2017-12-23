@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/CODE/C++/Karp-Rabin/main.cpp
+E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/main.cpp
 iostream
 -
 rolling_hash.h
-E:/CODE/C++/Karp-Rabin/rolling_hash.h
+E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/rolling_hash.h
 
-E:/CODE/C++/Karp-Rabin/rolling_hash.cpp
+E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/rolling_hash.cpp
 rolling_hash.h
-E:/CODE/C++/Karp-Rabin/rolling_hash.h
+E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/rolling_hash.h
 
-E:/CODE/C++/Karp-Rabin/rolling_hash.h
+E:/CODE/GIT/CPlusPlusCodes/Karp-Rabin/rolling_hash.h
 
