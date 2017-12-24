@@ -1,0 +1,3 @@
+C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\multi_eggs_multi_floors.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\multi_eggs_multi_floors.dir/objects.a @CMakeFiles\multi_eggs_multi_floors.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\multi_eggs_multi_floors.dir/objects.a -Wl,--no-whole-archive  -o multi_eggs_multi_floors.exe -Wl,--out-implib,libmulti_eggs_multi_floors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\multi_eggs_multi_floors.dir\linklibs.rsp

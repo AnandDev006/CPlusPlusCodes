@@ -1,3 +1,0 @@
-E:/CODE/C++/SORT/cmake-build-debug/CMakeFiles/SORT.dir
-E:/CODE/C++/SORT/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/SORT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
