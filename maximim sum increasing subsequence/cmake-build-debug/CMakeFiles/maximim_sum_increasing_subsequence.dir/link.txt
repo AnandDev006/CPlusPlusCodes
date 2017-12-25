@@ -1,0 +1,3 @@
+C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\maximim_sum_increasing_subsequence.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\maximim_sum_increasing_subsequence.dir/objects.a @CMakeFiles\maximim_sum_increasing_subsequence.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\maximim_sum_increasing_subsequence.dir/objects.a -Wl,--no-whole-archive  -o maximim_sum_increasing_subsequence.exe -Wl,--out-implib,libmaximim_sum_increasing_subsequence.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\maximim_sum_increasing_subsequence.dir\linklibs.rsp

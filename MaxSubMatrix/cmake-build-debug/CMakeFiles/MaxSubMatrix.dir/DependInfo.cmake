@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/MaxSubMatrix/main.cpp" "E:/CODE/MaxSubMatrix/cmake-build-debug/CMakeFiles/MaxSubMatrix.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/MaxSubMatrix/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/MaxSubMatrix/cmake-build-debug/CMakeFiles/MaxSubMatrix.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
