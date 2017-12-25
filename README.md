@@ -27,3 +27,5 @@ Useful links :
   Dynamic Programming : https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
   
   DSA mock test : https://www.codechef.com/certification/prepare#foundation
+  
+  Preparation for competitive coding : https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw
