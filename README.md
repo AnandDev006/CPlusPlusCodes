@@ -12,10 +12,9 @@ Useful links :
 
   DSA Basics tutorial : https://www.youtube.com/user/tusharroy2525
   
-  MIT LECTURE VIDEOS : 
-    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm
+  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm
   
-    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm
+  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm
   
   Preparation for competitive coding : https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw
   
