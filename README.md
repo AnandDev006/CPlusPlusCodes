@@ -8,6 +8,8 @@ All the codes are written for C++ 14 and using CLion IDE https://www.jetbrains.c
 I was a mechanical engineering student ( not by choice ) who found his true passion in computer programming
 Decided to swap to CSE by mid of 3rd year 2nd sem and started preparation work during my 4th year semester 1
 
+Email : anand.dev.006@gmail.com
+
 Useful links : 
 
   DSA Basics tutorial : https://www.youtube.com/user/tusharroy2525
