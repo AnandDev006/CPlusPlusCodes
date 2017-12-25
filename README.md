@@ -22,10 +22,8 @@ Useful links :
   
   DSA mock test : https://www.codechef.com/certification/prepare#foundation
   
-  http://bigocheatsheet.com/
-  
-  http://www.asciitable.com/
-  
-  http://www.satya-weblog.com/tools/find-alphabets.php?q=z
-  
-  https://tfetimes.com/c-puzzlesgames/
+  Miscellaneous
+    http://bigocheatsheet.com/
+    http://www.asciitable.com/
+    http://www.satya-weblog.com/tools/find-alphabets.php?q=z
+    https://tfetimes.com/c-puzzlesgames/
