@@ -12,9 +12,11 @@ Useful links :
 
   DSA Basics tutorial : https://www.youtube.com/user/tusharroy2525
   
-  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm
+  MIT Lecture on DSA : 
   
-  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm
+    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm
+  
+    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm
   
   Preparation for competitive coding : https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw
   
@@ -22,7 +24,7 @@ Useful links :
   
   DSA mock test : https://www.codechef.com/certification/prepare#foundation
   
-  Miscellaneous
+  Miscellaneous:
   
     http://bigocheatsheet.com/
     
