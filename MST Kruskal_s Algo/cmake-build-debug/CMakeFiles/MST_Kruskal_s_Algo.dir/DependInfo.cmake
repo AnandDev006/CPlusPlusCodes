@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/MST Kruskal's Algo/main.cpp" "E:/CODE/C++/MST Kruskal's Algo/cmake-build-debug/CMakeFiles/MST_Kruskal_s_Algo.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/MST Kruskal_s Algo/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/MST Kruskal_s Algo/cmake-build-debug/CMakeFiles/MST_Kruskal_s_Algo.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

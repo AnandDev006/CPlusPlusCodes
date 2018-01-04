@@ -1,4 +1,4 @@
-# Install script for directory: E:/CODE/0/matrix chain multiplication
+# Install script for directory: E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CODE/0/matrix chain multiplication/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

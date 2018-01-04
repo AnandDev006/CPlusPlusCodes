@@ -1,4 +1,4 @@
-# Install script for directory: E:/CODE/C++/Even Tree
+# Install script for directory: E:/CODE/GIT/CPlusPlusCodes/Even Tree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CODE/C++/Even Tree/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/CODE/GIT/CPlusPlusCodes/Even Tree/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

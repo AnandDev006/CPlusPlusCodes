@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 
-using namespace std ;
+using namespace std;
 
-int main() {
-    // for git test
-    
+int main(){
+    set<int> S;
+    S.
     return 0;
 }

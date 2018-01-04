@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/0/matrix chain multiplication/main.cpp" "E:/CODE/0/matrix chain multiplication/cmake-build-debug/CMakeFiles/matrix_chain_multiplication.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication/cmake-build-debug/CMakeFiles/matrix_chain_multiplication.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

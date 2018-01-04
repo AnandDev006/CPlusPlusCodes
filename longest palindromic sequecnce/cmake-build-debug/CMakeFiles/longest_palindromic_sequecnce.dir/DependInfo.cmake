@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/longest palindromic sequecnce/main.cpp" "E:/CODE/longest palindromic sequecnce/cmake-build-debug/CMakeFiles/longest_palindromic_sequecnce.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/longest palindromic sequecnce/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/longest palindromic sequecnce/cmake-build-debug/CMakeFiles/longest_palindromic_sequecnce.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

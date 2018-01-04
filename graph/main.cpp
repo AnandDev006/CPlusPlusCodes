@@ -1,10 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <map>
-#include <queue>
-#include <stack>
+#include <bits/stdc++.h>
 
-#define MAXN 5
+#define MAXN 6
 
 using namespace std ;
 
@@ -67,13 +63,17 @@ void relax( int u , int v , PriQ &Q ){
     }
 }
 
-void dijkstra( int s , int e = MAXN) {
+void dijkstra( int s , int e = MAXN-1) {
     PriQ Q(cmp) ;
     init( s , Q ) ;
     int u ;
+    unordered_set<int> extracted;
     while( !Q.empty() ){
         u = Q.top().first ;
         Q.pop();
+        if( extracted.find( u) != extracted.end())
+            continue;
+        extracted.insert( u);
         for( auto v : g[u] )
             relax( u , v , Q);
     }
@@ -82,27 +82,38 @@ void dijkstra( int s , int e = MAXN) {
     else
         cout << endl << "No path exists " << endl ;
 }
-/*
-void bellman_ford( int s ){
-    d[s] = 0 ;
-    int u = 0 ;
-    for( int i = 0; i < MAXN ; ++i){
-        for( auto e : g ) {
+
+void relax_BF( int u, int v){
+    if( ( d[v] > d[u] + w[make_pair(u,v)] ) && d[u] != INT32_MAX )
+        d[v] = d[u] + w[make_pair(u,v)] ;
+}
+
+void bellman_ford( int s , int e) {     // only works for directed graphs where there -ve weight edge isnt bi-directional
+    d[s] = 0;                           // also works for undirected graphs with all +ve edge weights
+    int u = 0;
+    for (int i = 0; i < MAXN-1; ++i) {
+        u = 0;
+        for (auto e : g) {
             for (auto v : e)
-                relax(u, v);
-            ++u ;
+                relax_BF(u, v);
+            ++u;
         }
     }
-    u = 0 ;
-    for( auto e : g ) {
+    u = 0;
+    for (auto e : g) {
         for (auto v : e)
-            if (d[v] > d[u] + w[make_pair(u, v)] && d[v] != INT32_MAX)
+            if (d[v] > d[u] + w[make_pair(u, v)] && d[u] != INT32_MAX && d[v] != INT32_MAX ) {
                 cout << endl << " Graph contains negetive weight cycles" << endl;
-        return ;
+                return;
+            }
         ++u;
     }
+    if( d[e] != INT32_MAX )
+        cout << endl << "Shortest distance : " << d[e] << endl ;
+    else
+        cout << endl << "No path exists " << endl ;
 }
-*/
+
 void addEdge(int x, int y, int W){
     g[x].push_back(y);
     g[y].push_back(x);
@@ -118,12 +129,14 @@ void make_graph(){
     addEdge( 1, 2, 1);
     addEdge( 3, 4, 6);
     addEdge( 4, 2, 5);
-    addEdge( 4, 5, 2);
+    addEdge( 4, 5, -2);
     addEdge( 2, 5, 4);
 }
 
 int main(){
     make_graph() ;
-    dijkstra( 0 );
+    int end;
+    cin >> end;
+    bellman_ford( 0, end );
     return 0 ;
 }

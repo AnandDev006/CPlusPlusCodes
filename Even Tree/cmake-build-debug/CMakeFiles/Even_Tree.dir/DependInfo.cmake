@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/CODE/C++/Even Tree/main.cpp" "E:/CODE/C++/Even Tree/cmake-build-debug/CMakeFiles/Even_Tree.dir/main.cpp.obj"
+  "E:/CODE/GIT/CPlusPlusCodes/Even Tree/main.cpp" "E:/CODE/GIT/CPlusPlusCodes/Even Tree/cmake-build-debug/CMakeFiles/Even_Tree.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

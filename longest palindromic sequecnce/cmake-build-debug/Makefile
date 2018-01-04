@@ -47,10 +47,10 @@ RM = C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\CODE\longest palindromic sequecnce"
+CMAKE_SOURCE_DIR = "E:\CODE\GIT\CPlusPlusCodes\longest palindromic sequecnce"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\CODE\longest palindromic sequecnce\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\CODE\GIT\CPlusPlusCodes\longest palindromic sequecnce\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\longest palindromic sequecnce\cmake-build-debug\CMakeFiles" "E:\CODE\longest palindromic sequecnce\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\GIT\CPlusPlusCodes\longest palindromic sequecnce\cmake-build-debug\CMakeFiles" "E:\CODE\GIT\CPlusPlusCodes\longest palindromic sequecnce\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\longest palindromic sequecnce\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\CODE\GIT\CPlusPlusCodes\longest palindromic sequecnce\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

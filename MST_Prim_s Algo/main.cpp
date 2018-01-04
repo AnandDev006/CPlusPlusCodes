@@ -60,7 +60,7 @@ int main() {
     addEdge( 3, 1, 3);
     addEdge( 3, 2, 1);
     addEdge( 1, 2, 1);
-    addEdge( 3, 4, 6);
+    addEdge( 3, 4, 1);
     addEdge( 4, 2, 5);
     addEdge( 4, 5, 2);
     addEdge( 2, 5, 4);

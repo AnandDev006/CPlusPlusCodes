@@ -1,93 +1,84 @@
-#include <iostream>
-#include <set>
-#include <unordered_map>
-
-#define MAXN 100000
-
+#include<bits/stdc++.h>
 using namespace std;
+#define MAX     100000
+#define D(x)    cout << #x " = " << (x) << endl
 
-set< int> Adj[ MAXN+1];
-unordered_map< int, int> parent;
-unordered_map< int, int> start;
-unordered_map< int, int> finish;
-unordered_map< int, int> pos;
-int index;
+vector<int> edge[MAX+7];
+int csum[MAX+7], st[MAX+7], ed[MAX+7], parent[MAX+7], indx;
 
-void dfs( int s = 1, int p = -1) {
-    ++index;
-    start[s] = index;
-    pos[index] = s;
-    parent[s] = p;
-    for( auto v : Adj[s] ) {
-        if( parent[v])
-            continue;
-        dfs( v, s);
+
+void dfs(int idx, int par = -1)
+{
+    parent[idx] = par;
+
+    indx++;
+    st[idx] = indx;
+
+
+    for(auto x : edge[idx]){
+        if(x == par) continue;
+        dfs(x, idx);
     }
-    finish[s] = index;
+
+    ed[idx] = indx;
 }
 
-int GCD( int a, int b) {
-    while ( a != b ) {
-        if( a > b )
-            a -= b;
-        else
-            b -= a;
-    }
-    return a;
-}
+int main()
+{
+    //freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
 
-void game() {
-    int n, u , v, q, k, correct = 0;
-    unordered_map< int, int> root;
-    cin >> n;
-    for( int i = 1; i < n; i++) {
-        cin >> u >> v;
-        Adj[ u].insert( v);
-        Adj[ v].insert( u);
-    }
-    dfs();
-    cin >> q >> k;
-    for(int i = 0; i < q; ++i) {
-        cin >> u >> v;
-        if( Adj[u].count( v ) ) {
-            int stU = start[u];
-            int fiU = finish[u];
-            int stV = start[v];
-            int fiV = finish[v];
-            if ( stV > stU && stV <= fiU ) {
-                for( int j = 1; j < stV; ++j)
-                    ++root[ pos[j]];
-                for( int j = fiV + 1; j <= index; ++j)
-                    ++root[ pos[j]];
+    int i, j, k, t, cs, n, u, v, q;
+    int valid;
+
+    scanf("%d", &t);
+    while(t--)
+    {
+        memset(csum, 0, sizeof(csum));
+        valid = indx = 0;
+
+        scanf("%d", &n);
+        for(i = 1; i < n; i++)
+        {
+            scanf("%d %d", &u, &v);
+            edge[u].push_back(v);
+            edge[v].push_back(u);
+        }
+
+        int root = 1;
+        dfs(root);
+
+        scanf("%d %d", &q, &k);
+        for(i = 1; i <= q; i++)
+        {
+            scanf("%d %d", &u, &v);
+            if(parent[v] == u){
+                csum[st[root]]++;   // start of root TILL
+                csum[st[v]]--;      // start of child
+                                    // UNION
+                csum[ed[v]+1]++;    // end of child TILL
+                csum[ed[root]+1]--; // end of root
             }
-            else {
-                for( int j = stU; j <= fiU; ++j)
-                    ++root[ pos[j]];
+            else{
+                csum[st[u]]++;      // start of child TILL
+                csum[ed[u]+1]--;    // end of child
             }
         }
-    }
-    for( int i = 1; i <= n; ++i)
-        if( root[i] >= k )
-            ++correct;
-    if( correct == 0 ) {
-        cout << "0/1" << endl;
-        return;
-    }
-    int g = GCD( correct, n);
-    cout << correct / g << "/" << n / g << endl;
-    for( int i = 0 ; i < n ; ++i )
-        Adj[i].clear();
-    parent.clear();
-    start.clear();
-    finish.clear();
-    pos.clear();
-    index = 0;
-}
 
-int main() {
-    int t;
-    cin >> t;
-    while( t-- )
-        game();
+
+        for(i = st[root]; i <= ed[root]; i++)
+        {
+            csum[i] += csum[i - 1];
+            if(csum[i] >= k)
+                valid++;
+        }
+
+        int g = __gcd(valid, n);
+
+        printf("%d/%d\n", valid / g, n / g);
+
+        for(i = 1; i <= n; i++)
+            edge[i].clear();
+    }
     return 0;
 }
