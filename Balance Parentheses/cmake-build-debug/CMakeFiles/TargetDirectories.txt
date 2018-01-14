@@ -1,3 +1,0 @@
-E:/CODE/C++/Balance Parentheses/cmake-build-debug/CMakeFiles/Balance_Parentheses.dir
-E:/CODE/C++/Balance Parentheses/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/Balance Parentheses/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-E:/CODE/C++/Sherlock and the Valid String/cmake-build-debug/CMakeFiles/Sherlock_and_the_Valid_String.dir
-E:/CODE/C++/Sherlock and the Valid String/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/Sherlock and the Valid String/cmake-build-debug/CMakeFiles/rebuild_cache.dir

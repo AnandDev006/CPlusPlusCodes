@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/buy sell stock/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/buy sell stock/cmake-build-debug/CMakeFiles/buy_sell_stock.dir
-E:/CODE/GIT/CPlusPlusCodes/buy sell stock/cmake-build-debug/CMakeFiles/edit_cache.dir

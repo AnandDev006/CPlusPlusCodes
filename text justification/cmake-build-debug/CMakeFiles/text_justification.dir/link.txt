@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\text_justification.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\text_justification.dir/objects.a @CMakeFiles\text_justification.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\text_justification.dir/objects.a -Wl,--no-whole-archive  -o text_justification.exe -Wl,--out-implib,libtext_justification.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\text_justification.dir\linklibs.rsp

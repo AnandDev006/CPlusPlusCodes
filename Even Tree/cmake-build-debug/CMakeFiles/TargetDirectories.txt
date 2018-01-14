@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/Even Tree/cmake-build-debug/CMakeFiles/Even_Tree.dir
-E:/CODE/GIT/CPlusPlusCodes/Even Tree/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/Even Tree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

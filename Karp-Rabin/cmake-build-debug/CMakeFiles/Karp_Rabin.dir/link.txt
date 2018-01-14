@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\Karp_Rabin.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Karp_Rabin.dir/objects.a @CMakeFiles\Karp_Rabin.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Karp_Rabin.dir/objects.a -Wl,--no-whole-archive  -o Karp_Rabin.exe -Wl,--out-implib,libKarp_Rabin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Karp_Rabin.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\buy_sell_stock.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\buy_sell_stock.dir/objects.a @CMakeFiles\buy_sell_stock.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\buy_sell_stock.dir/objects.a -Wl,--no-whole-archive  -o buy_sell_stock.exe -Wl,--out-implib,libbuy_sell_stock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\buy_sell_stock.dir\linklibs.rsp

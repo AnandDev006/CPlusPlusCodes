@@ -1,3 +1,0 @@
-E:/CODE/0/Subset Sum/cmake-build-debug/CMakeFiles/Subset_Sum.dir
-E:/CODE/0/Subset Sum/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/0/Subset Sum/cmake-build-debug/CMakeFiles/rebuild_cache.dir

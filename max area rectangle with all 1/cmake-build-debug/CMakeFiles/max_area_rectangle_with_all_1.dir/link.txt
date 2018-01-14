@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\max_area_rectangle_with_all_1.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\max_area_rectangle_with_all_1.dir/objects.a @CMakeFiles\max_area_rectangle_with_all_1.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\max_area_rectangle_with_all_1.dir/objects.a -Wl,--no-whole-archive  -o max_area_rectangle_with_all_1.exe -Wl,--out-implib,libmax_area_rectangle_with_all_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\max_area_rectangle_with_all_1.dir\linklibs.rsp

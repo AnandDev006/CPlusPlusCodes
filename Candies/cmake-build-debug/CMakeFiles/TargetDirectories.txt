@@ -1,3 +1,0 @@
-E:/CODE/C++/Candies/cmake-build-debug/CMakeFiles/Candies.dir
-E:/CODE/C++/Candies/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/Candies/cmake-build-debug/CMakeFiles/rebuild_cache.dir

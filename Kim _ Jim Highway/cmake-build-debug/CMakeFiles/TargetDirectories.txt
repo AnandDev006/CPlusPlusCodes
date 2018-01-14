@@ -1,3 +1,0 @@
-E:/CODE/C++/Kim & Jim Highway/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/CODE/C++/Kim & Jim Highway/cmake-build-debug/CMakeFiles/Kim___Jim_Highway.dir
-E:/CODE/C++/Kim & Jim Highway/cmake-build-debug/CMakeFiles/edit_cache.dir

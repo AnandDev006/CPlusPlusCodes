@@ -1,3 +1,0 @@
-E:/CODE/C++/Sherlock and Cost/cmake-build-debug/CMakeFiles/Sherlock_and_Cost.dir
-E:/CODE/C++/Sherlock and Cost/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/Sherlock and Cost/cmake-build-debug/CMakeFiles/rebuild_cache.dir

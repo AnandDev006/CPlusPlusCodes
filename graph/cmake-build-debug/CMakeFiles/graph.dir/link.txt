@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\graph.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\graph.dir/objects.a @CMakeFiles\graph.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\graph.dir/objects.a -Wl,--no-whole-archive  -o graph.exe -Wl,--out-implib,libgraph.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\graph.dir\linklibs.rsp

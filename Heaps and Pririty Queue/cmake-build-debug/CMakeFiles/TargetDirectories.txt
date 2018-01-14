@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue/cmake-build-debug/CMakeFiles/Heaps_and_Pririty_Queue.dir
-E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/Heaps and Pririty Queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

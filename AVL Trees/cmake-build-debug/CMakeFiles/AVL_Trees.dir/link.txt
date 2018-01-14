@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\AVL_Trees.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\AVL_Trees.dir/objects.a @CMakeFiles\AVL_Trees.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\AVL_Trees.dir/objects.a -Wl,--no-whole-archive  -o AVL_Trees.exe -Wl,--out-implib,libAVL_Trees.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AVL_Trees.dir\linklibs.rsp

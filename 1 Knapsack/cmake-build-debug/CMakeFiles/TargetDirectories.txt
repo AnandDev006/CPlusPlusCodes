@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/1 Knapsack/cmake-build-debug/CMakeFiles/1_Knapsack.dir
-E:/CODE/GIT/CPlusPlusCodes/1 Knapsack/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/1 Knapsack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

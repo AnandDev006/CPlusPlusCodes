@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/The Story of a Tree/cmake-build-debug/CMakeFiles/The_Story_of_a_Tree.dir
-E:/CODE/GIT/CPlusPlusCodes/The Story of a Tree/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/The Story of a Tree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

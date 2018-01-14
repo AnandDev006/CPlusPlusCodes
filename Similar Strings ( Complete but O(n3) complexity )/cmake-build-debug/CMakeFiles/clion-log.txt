@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.1.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\CODE\C++\Similar Strings ( Complete but O(n3) complexity )"
--- Configuring done
--- Generating done
--- Build files have been written to: E:/CODE/C++/Similar Strings ( Complete but O(n3) complexity )/cmake-build-debug

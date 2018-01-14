@@ -1,3 +1,0 @@
-E:/CODE/C++/max subarray sum/cmake-build-debug/CMakeFiles/max_subarray_sum.dir
-E:/CODE/C++/max subarray sum/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/max subarray sum/cmake-build-debug/CMakeFiles/rebuild_cache.dir

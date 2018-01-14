@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\colorful_knapsack.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\colorful_knapsack.dir/objects.a @CMakeFiles\colorful_knapsack.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\colorful_knapsack.dir/objects.a -Wl,--no-whole-archive  -o colorful_knapsack.exe -Wl,--out-implib,libcolorful_knapsack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\colorful_knapsack.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\weighted_job_scheduling.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\weighted_job_scheduling.dir/objects.a @CMakeFiles\weighted_job_scheduling.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\weighted_job_scheduling.dir/objects.a -Wl,--no-whole-archive  -o weighted_job_scheduling.exe -Wl,--out-implib,libweighted_job_scheduling.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\weighted_job_scheduling.dir\linklibs.rsp

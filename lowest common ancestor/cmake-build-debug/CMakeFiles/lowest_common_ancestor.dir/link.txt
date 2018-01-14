@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\lowest_common_ancestor.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\lowest_common_ancestor.dir/objects.a @CMakeFiles\lowest_common_ancestor.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lowest_common_ancestor.dir/objects.a -Wl,--no-whole-archive  -o lowest_common_ancestor.exe -Wl,--out-implib,liblowest_common_ancestor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lowest_common_ancestor.dir\linklibs.rsp

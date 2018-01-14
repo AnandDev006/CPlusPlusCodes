@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication/cmake-build-debug/CMakeFiles/matrix_chain_multiplication.dir
-E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/matrix chain multiplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir

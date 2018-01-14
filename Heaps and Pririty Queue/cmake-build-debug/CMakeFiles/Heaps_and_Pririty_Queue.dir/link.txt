@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\Heaps_and_Pririty_Queue.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Heaps_and_Pririty_Queue.dir/objects.a @CMakeFiles\Heaps_and_Pririty_Queue.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Heaps_and_Pririty_Queue.dir/objects.a -Wl,--no-whole-archive  -o Heaps_and_Pririty_Queue.exe -Wl,--out-implib,libHeaps_and_Pririty_Queue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Heaps_and_Pririty_Queue.dir\linklibs.rsp

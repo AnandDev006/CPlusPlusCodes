@@ -1,3 +1,0 @@
-E:/CODE/C++/The Maximum Subarray/cmake-build-debug/CMakeFiles/The_Maximum_Subarray.dir
-E:/CODE/C++/The Maximum Subarray/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/The Maximum Subarray/cmake-build-debug/CMakeFiles/rebuild_cache.dir

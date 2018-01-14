@@ -1,3 +1,0 @@
-E:/CODE/minimum edit distance/cmake-build-debug/CMakeFiles/minimum_edit_distance.dir
-E:/CODE/minimum edit distance/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/minimum edit distance/cmake-build-debug/CMakeFiles/rebuild_cache.dir

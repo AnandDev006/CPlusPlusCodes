@@ -1,3 +1,0 @@
-E:/CODE/C++/BST-Basic/cmake-build-debug/CMakeFiles/BST_Basic.dir
-E:/CODE/C++/BST-Basic/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/BST-Basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir

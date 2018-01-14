@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/SORT/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5eb54.dir
-E:/CODE/GIT/CPlusPlusCodes/SORT/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/SORT/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

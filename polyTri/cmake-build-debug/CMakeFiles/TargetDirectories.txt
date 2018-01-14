@@ -1,3 +1,0 @@
-E:/CODE/C++/polyTri/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/polyTri/cmake-build-debug/CMakeFiles/polyTri.dir
-E:/CODE/C++/polyTri/cmake-build-debug/CMakeFiles/rebuild_cache.dir

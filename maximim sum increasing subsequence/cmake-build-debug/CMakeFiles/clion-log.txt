@@ -1,4 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\CODE\GIT\CPlusPlusCodes\maximim sum increasing subsequence"
--- Configuring done
--- Generating done
--- Build files have been written to: E:/CODE/GIT/CPlusPlusCodes/maximim sum increasing subsequence/cmake-build-debug

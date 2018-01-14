@@ -1,3 +1,0 @@
-E:/CODE/Pangrams/cmake-build-debug/CMakeFiles/Pangrams.dir
-E:/CODE/Pangrams/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/Pangrams/cmake-build-debug/CMakeFiles/rebuild_cache.dir

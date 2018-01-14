@@ -1,3 +1,0 @@
-E:/CODE/C++/longest consecutive characters/cmake-build-debug/CMakeFiles/longest_consecutive_characters.dir
-E:/CODE/C++/longest consecutive characters/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/C++/longest consecutive characters/cmake-build-debug/CMakeFiles/rebuild_cache.dir

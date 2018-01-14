@@ -1,3 +1,0 @@
-E:/CODE/Jumping on the Clouds/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/Jumping on the Clouds/cmake-build-debug/CMakeFiles/Jumping_on_the_Clouds.dir
-E:/CODE/Jumping on the Clouds/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-E:/CODE/String Construction/cmake-build-debug/CMakeFiles/String_Construction.dir
-E:/CODE/String Construction/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CODE/String Construction/cmake-build-debug/CMakeFiles/rebuild_cache.dir

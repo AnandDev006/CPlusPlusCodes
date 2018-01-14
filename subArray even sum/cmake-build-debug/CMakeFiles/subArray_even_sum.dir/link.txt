@@ -1,3 +1,0 @@
-C:\Users\HawK\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\subArray_even_sum.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\subArray_even_sum.dir/objects.a @CMakeFiles\subArray_even_sum.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\subArray_even_sum.dir/objects.a -Wl,--no-whole-archive  -o subArray_even_sum.exe -Wl,--out-implib,libsubArray_even_sum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\subArray_even_sum.dir\linklibs.rsp

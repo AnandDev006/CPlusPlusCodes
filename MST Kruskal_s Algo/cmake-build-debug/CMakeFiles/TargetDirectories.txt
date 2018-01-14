@@ -1,3 +1,0 @@
-E:/CODE/GIT/CPlusPlusCodes/MST Kruskal_s Algo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/CODE/GIT/CPlusPlusCodes/MST Kruskal_s Algo/cmake-build-debug/CMakeFiles/MST_Kruskal_s_Algo.dir
-E:/CODE/GIT/CPlusPlusCodes/MST Kruskal_s Algo/cmake-build-debug/CMakeFiles/edit_cache.dir
