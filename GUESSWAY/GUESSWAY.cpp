@@ -20,26 +20,28 @@ int main(){
 
 		ll curr = 1;		// current node ( root )
 		bool pos = false;	// false = left , true = right
+		const bool L = false;
+		const bool R = true;
 		ll nonLeaf = ll(pow(2,h)) - 1;	// number of non-leaf nodes
 		n = n + nonLeaf;
 		ll count = 0;
 		while(true){
-			if( ( visited[curr*2] && visited[curr*2 + 1] ) || curr > nonLeaf ){ 	// if left and right are visited
+			if( ( visited[curr*2] && visited[curr*2 + 1] ) || curr > nonLeaf ){ 	// if left and right are visited or leaf node
 				curr = curr/2;
 			}
-			else if( pos == false ){ 		// if L
+			else if( pos == L ){ 		// if L
 				if( !visited[2*curr] ){			// if L not visited
 					curr = 2*curr;
-					pos = !pos;
+					pos = L;
 				}
 				else{ 							// if L is visited
 					curr = 2*curr + 1;
 				}
 			}
-			else if( pos == true ){ 		// if R
+			else if( pos == R ){ 		// if R
 				if( !visited[2*curr + 1]){		// if R not visited
 					curr = 2*curr + 1;
-					pos = !pos;
+					pos = L;
 				}
 				else{							// if R is visited
 					curr = 2*curr;
