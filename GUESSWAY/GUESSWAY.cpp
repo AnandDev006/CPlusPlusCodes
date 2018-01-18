@@ -32,7 +32,7 @@ int main(){
 			else if( pos == L ){ 		// if L
 				if( !visited[2*curr] ){			// if L not visited
 					curr = 2*curr;
-					pos = L;
+					pos = R;
 				}
 				else{ 							// if L is visited
 					curr = 2*curr + 1;
