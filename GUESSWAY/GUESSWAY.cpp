@@ -12,18 +12,19 @@ int main(){
 	int T;
 	cin >> T;
 	while( T--){
-		cin >> h >> n;
-		ll numNode = ll(pow(2,h+1)) - 1;
+		cin >> h >> n; 		// h -> ht of tree
+		 					// n -> leaf node number , left to right ( 1 -> 2^h )
+		ll numNode = ll(pow(2,h+1)) - 1; // total number of nodes in tree
 		bool visited[numNode+10];
 		memset( visited, false, sizeof(visited));
 
-		ll curr = 1;
-		bool pos = false; // false = left , true = right
-		ll leaf = ll(pow(2,h)) - 1;
-		n = n + leaf;
+		ll curr = 1;		// current node ( root )
+		bool pos = false;	// false = left , true = right
+		ll nonLeaf = ll(pow(2,h)) - 1;	// number of non-leaf nodes
+		n = n + nonLeaf;
 		ll count = 0;
 		while(true){
-			if( ( visited[curr*2] && visited[curr*2 + 1] ) || curr > leaf ){ 	// if left and right are visited
+			if( ( visited[curr*2] && visited[curr*2 + 1] ) || curr > nonLeaf ){ 	// if left and right are visited
 				curr = curr/2;
 			}
 			else if( pos == false ){ 		// if L
