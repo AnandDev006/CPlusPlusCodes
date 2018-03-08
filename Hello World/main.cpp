@@ -1,6 +1,13 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int n;
+    cin >> n;
+    while(n-- > 0){
+        cout << --n << endl;
+    }
+    system("pause");
     return 0;
 }
