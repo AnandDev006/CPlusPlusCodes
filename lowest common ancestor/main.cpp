@@ -30,7 +30,7 @@ stack< int> pathToX( node *Root, int key){
         return leftPath;
     }
     stack< int> rightPath = pathToX( Root->right, key);
-    if( rightPath.empty() ){
+    if( !rightPath.empty() ){
         rightPath.push( Root->key);
         return rightPath;
     }
@@ -41,22 +41,28 @@ int LCA( node *Root, int X, int Y){
     stack< int> pathY = pathToX( Root, Y);
     stack< int> pathX = pathToX( Root, X);
     int LCA = Root->key;
-    while( pathX.top() == pathY.top() ){
+    while( !pathY.empty() && !pathX.empty() && pathX.top() == pathY.top() ){
         LCA = pathX.top();
         pathX.pop();
         pathY.pop();
     }
-    return  LCA;
+    return LCA; 
 }
 
 int main() {
-    node* root = createNewNode( 1);
+    node* root = createNewNode( 5);
     root->left = createNewNode( 3);
-    root->right = createNewNode( 2);
-    root->left->left = createNewNode( 4);
-    root->left->right = createNewNode( 6);
-    root->left->right->left = createNewNode( 5);
-    root->right = createNewNode( 2);
-    cout << LCA( root, 4, 5) << endl;
+    root->right = createNewNode( 8);
+    root->left->left = createNewNode( 2);
+    root->left->right = createNewNode( 4);
+    root->left->left->left = createNewNode( 1);
+    root->right->left = createNewNode( 7);
+    root->right->right = createNewNode( 11);
+    root->right->right->left = createNewNode( 9);
+    root->right->right->right = createNewNode( 12);
+    int a, b;
+    cin >> a >> b;
+    cout << LCA( root, a, b) << endl;
+    system("pause");
     return 0;
 }

@@ -45,5 +45,6 @@ int main() {
     for( i = 0 ; i < m ; ++i)
         cin >> input2[i];
     longest_common_subsequesce();
+    system("pause");
     return 0;
 }
