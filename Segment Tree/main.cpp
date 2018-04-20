@@ -30,7 +30,7 @@ void updateSegTreeLazy( vector<int> segTree, vector<int> lazy, int startRange, i
     if( low > high)
         return;
     
-    if(lazy[pos] != 0){     // check if there are oending propogations
+    if(lazy[pos] != 0){     // check if there are pending propogations
         segTree[pos] += lazy[pos];
         if( low != high){   // if not leaf node
             lazy[2*pos +1] += lazy[pos];
