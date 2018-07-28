@@ -18,9 +18,9 @@ void rec( int *subset, int pos) {
         print_set( subset);
     else {
         subset[ pos] = INT_MIN;
-        rec( subset, pos +1);
+        rec( subset, pos + 1);
         subset[ pos] = d[pos];
-        rec( subset, pos+1);
+        rec( subset, pos + 1);
     }
 }
 

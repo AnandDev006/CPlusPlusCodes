@@ -221,9 +221,11 @@ int main(){
 
     cout << endl << "Assigning data : " << (double)(clock() - tStart)/CLOCKS_PER_SEC ;
 
-    selectionSort( array1 ) ;
-    bubbleSort( array2 ) ;
-    insertionSort( array3 ) ;
+    if( n < 10000){
+	    selectionSort( array1 ) ;
+	    bubbleSort( array2 ) ;
+	    insertionSort( array3 ) ;
+	}
     mergeSort( array4 ) ;
     quickSort( array5 ) ;
     heapSort( array6 ) ;
