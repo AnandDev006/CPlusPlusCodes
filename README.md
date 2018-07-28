@@ -5,11 +5,6 @@ Hi all,
 These are a list of problems and project i undertook in my journey to learn the world of computer programming
 All the codes are written for C++ 14.
 
-I was a mechanical engineering student who found his true passion in computer programming
-Decided to swap to CSE by mid of 3rd year 2nd sem and started preparation work during my 4th year semester 1
-
-Email : anand.dev.006@gmail.com
-
 Useful links : 
 
   DSA Basics tutorial : https://www.youtube.com/user/tusharroy2525
