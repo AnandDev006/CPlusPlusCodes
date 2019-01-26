@@ -78,8 +78,8 @@ template <class T>
 int BSTNode < T > :: BSTNode_Height( BSTNode * root ){
     if( root == NULL )
         return -1 ;
-    T lH = BSTNode_Height( root->left ) + 1 ;
-    T rH = BSTNode_Height( root->right ) + 1 ;
+    int lH = BSTNode_Height( root->left ) + 1 ;
+    int rH = BSTNode_Height( root->right ) + 1 ;
     if( lH > rH )
         return lH ;
     else
@@ -90,9 +90,9 @@ template <class T>
 int BSTNode < T > :: BSTNode_Depth( BSTNode * root , int key ){
     if( root->key == key )
         return 0 ;
-    else if( key < root->key && root->left != NULL )
+    else if( root->left != NULL && key < root->key )
         return BSTNode_Depth( root->left , key ) + 1 ;
-    else if ( key > root->key && root->right != NULL )
+    else if ( root->right != NULL && key > root->key )
         return BSTNode_Depth( root->right , key ) + 1 ;
 }
 

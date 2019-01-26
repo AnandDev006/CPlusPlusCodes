@@ -11,9 +11,9 @@ void dfs_visit( int s ){
     white.erase(s);
     gray.insert( s );
     for( auto v : Adj[s] ){
-        if( black.count( v ) )
+        if( black.find( v ) != black.end() )
             continue;
-        if( gray.count( v ) ){
+        if( gray.find( v ) != gray.end() ){
             cout << "Cycle detected" << endl ;
             Parent[v] = s ;
             cout << v << " <- ";
@@ -39,7 +39,7 @@ void init(){
 void dfs(){
     init();
     for( int i = 0; i < MAXN ; ++i){
-        if( black.count(i) )
+        if( black.find(i) != black.end() )
             continue;
         dfs_visit( i );
     }

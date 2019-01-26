@@ -79,18 +79,17 @@ void postOrderIter( node* root){
     st1.push( root);
     while( !st1.empty()){
         node* temp = st1.top();
-        if( !st2.empty() && st2.top()->data == st1.top()->data ){
-            cout << st1.top()->data << endl;
-            st1.pop();
-            st2.pop();
-            continue;
-        }
+        st1.pop();
         st2.push( temp);
-        if( temp->right != NULL)
-            st1.push( temp->right);
         if( temp->left != NULL )
             st1.push( temp->left);
+        if( temp->right != NULL)
+            st1.push( temp->right);
 
+    }
+    while( !st2.empty() ){
+        cout << st2.top()->data << endl;
+        st2.pop();
     }
 }
 
