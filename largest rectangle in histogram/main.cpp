@@ -1,4 +1,4 @@
-// Largest area recatangle in histogram
+// Largest area recatangle in the histogram
 
 #include<bits/stdc++.h>
 
