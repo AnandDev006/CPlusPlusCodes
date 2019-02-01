@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/equal/problem
+// https://www.hackerrank.com/challenges/equal/problems
 
 #include <bits/stdc++.h>
 
