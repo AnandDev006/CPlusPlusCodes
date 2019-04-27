@@ -14,7 +14,7 @@ int main() {
         cin >> input[i];
 
     for( i = 0 ; i < N ; ++i )
-        DP[i] = 1;              // long increasing sub seq is atleast of length 1 at each posoition
+        DP[i] = 1;              // long increasing sub seq is atleast of length 1 at each position
     for( i = 1 ; i < N ; ++i){
         for( j = 0; j < i ; ++j )
             if( input[j] < input[i] )               // if inp[j] < inp [i] , then adding inp[i] to the longest sub
