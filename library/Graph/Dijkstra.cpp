@@ -1,6 +1,6 @@
 a /*
     author : Anand
-    Bellman Ford
+    Bellman Ford Algo
 */
 
 #include <bits/stdc++.h>
