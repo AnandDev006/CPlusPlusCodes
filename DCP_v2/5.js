@@ -1,24 +1,22 @@
 /*
-    author : Anand
+  author : Anand
 
-    This problem was asked by Jane Street.
+  
+	Problem 5
+	This problem was asked by Jane Street.
 
-    cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+	cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
 
-    Given this implementation of cons:
+	Given this implementation of cons:
 
-    def cons(a, b):
-      def pair(f):
-          return f(a, b)
-      return pair
-    Implement car and cdr
-
+	def cons(a, b):
+	    return lambda f : f(a, b)
+	Implement car and cdr.
 */
 
-const cons = (a, b) => f => f(a, b);
+cons = (a,b) => f => f(a, b);
 
-const car = g => g((x, y) => x);
-const cdr = g => g((x, y) => y);
-
-console.assert(car(cons(3, 4)) == 3);
-console.assert(cdr(cons(3, 4)) == 4);
+car = F => F( (a, b) => a )
+cdr = F => F( (a, b) => b )
+console.assert(car(cons(3, 4)) == 3)
+console.assert(cdr(cons(3, 4)) == 4)
