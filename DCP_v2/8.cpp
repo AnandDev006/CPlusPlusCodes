@@ -1,75 +1,95 @@
 /*
-    author : Anand
+  author : Anand
 
-    This problem was asked by Google.
+    Problem 8
+	This problem was asked by Google.
 
-    A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+	A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
 
-    Given the root to a binary tree, count the number of unival subtrees.
+	Given the root to a binary tree, count the number of unival subtrees.
 
-    For example, the following tree has 5 unival subtrees:
+	For example, the following tree has 5 unival subtrees:
 
-           0
-          / \
-         1   0
-            / \
-           1   0
-          / \
-         1   1
+	   0
+	  / \
+	 1   0
+	    / \
+	   1   0
+	  / \
+	 1   1
 */
 
 #include <bits/stdc++.h>
 
-#define zero 10e-9
-#define sz(a) int((a).size())
-#define pb push_back
-#define mp(a, b) make_pair(a, b)
-#define all(c) (c).begin(), (c).end()
-#define tr(c, i) for (typeof((c).begin()) i = (c).begin(); i != (c).end(); i++)
-#define present(c, x) ((c).find(x) != (c).end())
-#define cpresent(c, x) (find(all(c), x) != (c).end())
-#define X first
-#define Y second
-
 using namespace std;
 
-typedef long long ll;
-typedef pair<ll, ll> ii;
+#define PI 3.1415926535897932384626
+#define int long long
+#define ll long long
 
-class Node {
-   public:
-    Node* left;
-    Node* right;
-    int data;
-    Node(int data, Node* left = nullptr, Node* right = nullptr) {
-        this->data = data;
-        this->left = left;
-        this->right = right;
-    }
+#ifndef ONLINE_JUDGE
+#define debug(...) cerr << "\t" << #__VA_ARGS__ << " : " << (__VA_ARGS__) << endl;
+#else
+#define debug(...) 42
+#endif
+
+const int INF = 1e18 + 5;
+const int MOD = 1000000007;
+const int N = 1e7;
+const int K = 25;
+
+struct Node {
+	Node* left;
+	Node* right;
+	int data;
+	Node(int _data) {
+		data = _data;
+	}
 };
 
-pair<bool, pair<int, int> > helper(Node* node) {
-    if (node->left == nullptr && node->right == nullptr) return mp(true, mp(node->data, 1));
+struct Res {
+	int val;
+	bool isUnival;
+	int cnt;
+};
 
-    pair<bool, pair<int, int> > isLeftUnival = node->left == nullptr ? mp(true, mp(node->data, 0)) : helper(node->left);
+Res cnt_unival(Node* root) {
+	if(!root) return {-1, true, 0};
+	bool isUnival = false;
+	int cnt = 0;
 
-    pair<bool, pair<int, int> > isRightUnival = node->right == nullptr ? mp(true, mp(node->data, 0)) : helper(node->right);
+	Res leftTree = cnt_unival(root->left);
+	Res rightTree = cnt_unival(root->right);
+	
+	cnt = leftTree.cnt + rightTree.cnt;
+	if((leftTree.val == root->data || leftTree.val == -1) && (rightTree.val == root->data || rightTree.val == -1) && leftTree.isUnival && rightTree.isUnival) {
+		isUnival = true;
+		cnt += 1;
+	}
 
-    if (isLeftUnival.X && isRightUnival.X && isLeftUnival.Y.X == node->data && isRightUnival.Y.X == node->data) {
-        return mp(true, mp(node->data, isLeftUnival.Y.Y + isRightUnival.Y.Y + 1));
-    }
-    return mp(false, mp(node->data, isLeftUnival.Y.Y + isRightUnival.Y.Y));
+	return {root->data, isUnival, cnt};
 }
 
-int getUnivalTreeCount(Node* root) {
-    return helper(root).Y.Y;
+void solve() {
+  Node* root = new Node(0);
+  root->left = new Node(1);
+  root->right = new Node(0);
+  root->right->left = new Node(1);
+  root->right->right = new Node(0);
+  root->right->left->left = new Node(1);
+  root->right->left->right = new Node(1);
+  assert(cnt_unival(root).cnt == 5);
 }
 
-int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+signed main() {
+  cin.tie(nullptr);
+  ios::sync_with_stdio(false);
 
-    Node* root = new Node(0, new Node(1), new Node(0, new Node(1, new Node(1), new Node(1)), new Node(0)));
-    assert(getUnivalTreeCount(root) == 5);
-    return 0;
+  int T = 1;
+  // cin >> T;
+  while (T--) {
+    solve();
+  }
+
+  return 0;
 }

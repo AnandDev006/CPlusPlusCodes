@@ -1,82 +1,126 @@
 /*
-    author : Anand
-    An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev 
-    fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement 
-    an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which 
-    returns the node at index.
+  author : Anand
+	Problem 6
+	This problem was asked by Google.
+
+	An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index.
+
+	If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 */
 
 #include <bits/stdc++.h>
 
-#define zero 10e-9
-#define sz(a) int((a).size())
-#define pb push_back
-#define mp(a, b) make_pair(a, b)
-#define all(c) (c).begin(), (c).end()
-#define tr(c, i) for (typeof((c).begin()) i = (c).begin(); i != (c).end(); i++)
-#define present(c, x) ((c).find(x) != (c).end())
-#define cpresent(c, x) (find(all(c), x) != (c).end())
-#define X first
-#define Y second
-
 using namespace std;
 
-typedef long long ll;
-typedef pair<ll, ll> ii;
+#define PI 3.1415926535897932384626
+#define int long long
+#define ll long long
+
+#ifndef ONLINE_JUDGE
+#define debug(...) cerr << "\t" << #__VA_ARGS__ << " : " << (__VA_ARGS__) << endl;
+#else
+#define debug(...) 42
+#endif
+
+const int INF = 1e18 + 5;
+const int MOD = 1000000007;
+const int N = 1e7;
+const int K = 25;
 
 class Node {
-   public:
-    int data;
-    Node* both;
-    Node(int data) {
-        this->data = data;
-        this->both = nullptr;
-    }
+public:
+	int data;
+	Node* both;
 };
 
-class LinkedList {
-   public:
-    Node* head;
-    Node* tail;
-    LinkedList(Node* node) {
-        this->head = this->tail = node;
-        this->head->both = nullptr;
-        this->tail->both = nullptr;
-    }
 
-    void add(Node* node) {
-        this->tail->both = (Node*)(uintptr_t(this->tail->both) ^ uintptr_t(node));
-        node->both = (Node*)(uintptr_t(this->tail) ^ uintptr_t(nullptr));
-        this->tail = node;
-    }
+class XORLL {
+	Node* XOR (Node *a, Node *b) { 
+	    return reinterpret_cast<Node *>(
+	      reinterpret_cast<uintptr_t>(a) ^ 
+	      reinterpret_cast<uintptr_t>(b)); 
+	}
+public:
+	Node* head;
+	Node* tail;
+	XORLL() {
+		head = tail = nullptr;
+	}
 
-    Node* get(int index) {
-        Node* prevNode = nullptr;
-        Node* curNode = this->head;
-        Node* nextNode = nullptr;
+	void pushback(int _data) {
+		Node* temp = new Node();
+		temp->data = _data;
+		temp->both = tail;
+		if(head == nullptr) {
+			head = temp;
+		}
+		if(tail) {
+			tail->both = XOR(temp, tail->both);	
+		}
+		tail = temp;
+	}
 
-        for (int i = 0; i < index; ++i) {
-            nextNode = (Node*)(uintptr_t(prevNode) ^ uintptr_t(curNode->both));
-            prevNode = curNode;
-            curNode = nextNode;
-        }
-        return curNode;
-    }
+	void pushfront(int _data) {
+		Node* temp = new Node();
+		temp->data = _data;
+		temp->both = head;
+		if(tail == nullptr) {
+			tail = temp;
+		}
+		if(head) {
+			head->both = XOR(temp, head->both);	
+		}
+		head = temp;
+	}
+
+
+	int get(int index) {
+		Node* cur = head;
+		Node* prev = nullptr;
+		Node* next;
+		while(cur && index-- > 0) {
+			next = XOR(cur->both, prev);
+			prev = cur;
+			cur = next;
+		}
+		return cur->data;
+	}
+
+	void printList() {
+		Node* cur = head;
+		Node* prev = nullptr;
+		Node* next;
+		while(cur) {
+			cout << cur->data << " : ";
+			next = XOR(cur->both, prev);
+			prev = cur;
+			cur = next;
+		}
+		cout << endl;
+	}
 };
 
-int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+void solve() {
+	XORLL x = XORLL();
+	x.pushback(10);
+	x.pushback(20);
+	x.pushback(30);
+	x.pushback(40);
+	x.pushfront(5);
+	x.pushfront(1);
+	x.printList();
+	debug(x.get(2));
+}
 
-    LinkedList* ll = new LinkedList((new Node(1)));
-    ll->add(new Node(2));
-    ll->add(new Node(3));
-    ll->add(new Node(4));
-    ll->add(new Node(5));
-    ll->add(new Node(6));
-    ll->add(new Node(7));
+signed main() {
+  cin.tie(nullptr);
+  ios::sync_with_stdio(false);
 
-    cout << ll->get(2)->data << endl;
+  int T = 1;
+  // cin >> T;
+  while (T--) {
+    solve();
+  }
 
-    return 0;
+  return 0;
 }
